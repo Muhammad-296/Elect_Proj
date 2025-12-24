@@ -1,7 +1,9 @@
 <div align="center">
 
-<!-- Animated Header -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2500&pause=1000&color=34ebe8&center=true&vCenter=true&width=940&lines=⚡+CMOS+Logic+Analyzer+⚡;Circuit+Design+%26+Optimization;Visual+Logic+Simulation+Tool" alt="CMOS Logic Analyzer" />
+<!-- Static Header -->
+<h1 align="center">⚡ CMOS Logic Analyzer ⚡</h1>
+<h3 align="center">Circuit Design & Optimization | Visual Logic Simulation Tool</h3>
+
 
 
 
