@@ -1,260 +1,182 @@
-# ⚡ CMOS Logic Analyzer
+<div align="center">
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="420" alt="CMOS Logic Analyzer"/>
-</p>
+<!-- Animated Header -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=667EEA&center=true&vCenter=true&width=940&lines=⚡+CMOS+Logic+Analyzer+⚡;Advanced+Circuit+Design+%26+Analysis+Tool" alt="Typing SVG" />
 
-<p align="center">
-  <a href="#-key-features"><strong>Features</strong></a> •
-  <a href="#-installation"><strong>Installation</strong></a> •
-  <a href="#-usage"><strong>Usage</strong></a> •
-  <a href="#-mathematical-foundations"><strong>Formulas</strong></a> •
-  <a href="#-contributing"><strong>Contributing</strong></a> •
-  <a href="#-license-(mit---full-text-included)"><strong>License</strong></a>
-</p>
+<h3>🔬 Exact Delay • 📐 Area Optimization • 🔋 Power Analysis</h3>
 
+<!-- Badges -->
 <p align="center">
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.7+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
+  <img src="https://img.shields.io/badge/Python-3.7+-blue.svg?style=for-the-badge&logo=python" alt="Python">
   <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/badge/CMOS-Technology-purple.svg?style=for-the-badge" alt="CMOS">
   <img src="https://img.shields.io/badge/Status-Active-success.svg?style=for-the-badge" alt="Status">
 </p>
 
----
-
-## 📚 Table of Contents
-
-- [Overview](#-overview)
-- [Key Features](#-key-features)
-- [Why use this project?](#-why-use-this-project)
-- [Demo Output (Representative)](#-demo-output-representative)
-- [Supported CMOS Technologies](#-supported-cmos-technologies)
-- [Installation](#-installation)
-- [Quick Start](#-quick-start)
-- [Usage](#-usage)
-  - [Interactive CLI](#interactive-cli)
-  - [Command-line Arguments](#command-line-arguments)
-  - [Programmatic API](#programmatic-api)
-  - [Configuration File (YAML)](#configuration-file-yaml)
-- [Project Structure](#-project-structure)
-- [Mathematical Foundations](#-mathematical-foundations)
-- [Design & Implementation Notes](#-design--implementation-notes)
-- [Examples & Typical Workflows](#-examples--typical-workflows)
-- [Testing & CI](#-testing--ci)
-- [Troubleshooting & FAQ](#-troubleshooting--faq)
-- [Contributing](#-contributing)
-- [Security & Responsible Disclosure](#-security--responsible-disclosure)
-- [Roadmap](#-roadmap)
-- [Changelog (high level)](#-changelog-high-level)
-- [Author & Contacts](#-author--contacts)
-- [License (MIT — full text included)](#-license-mit---full-text-included)
-- [References & Acknowledgements](#-references--acknowledgements)
+<!-- Navigation -->
+<p align="center">
+  <a href="#-features"><b>Features</b></a> •
+  <a href="#-installation"><b>Installation</b></a> •
+  <a href="#-usage"><b>Usage</b></a> •
+  <a href="#-formulas"><b>Formulas</b></a> •
+  <a href="#-contributing"><b>Contributing</b></a>
+</p>
 
 ---
+
+</div>
 
 ## 📖 Overview
 
-CMOS Logic Analyzer is an extensible Python toolkit for analyzing, comparing, and optimizing CMOS logic implementations (principally NAND+NOT vs NOR+NOT). The tool provides:
+<img align="right" width="300" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
 
-- Exact propagation delay calculations (rise/fall) using long-channel MOSFET models.
-- Area and switching power estimations with per-gate aggregation.
-- Logic minimization (Quine–McCluskey) and K-map visualization (2–4 variables).
-- Multi-input NAND/NOR support, body-effect modeling, and a recommendation engine based on multiple metrics.
-- CLI, config-driven runs (YAML), and programmatic API for batch and research workflows.
+A **comprehensive Python-based tool** for analyzing and optimizing CMOS logic circuits. This analyzer implements **exact delay calculations**, area optimization, and power analysis for digital logic designs using both **NAND+NOT** and **NOR+NOT** implementations.
 
-This project is designed for education, early-stage VLSI architecture exploration, and research prototyping.
+### 🎯 Key Highlights
 
----
+> **💎 EXACT Mathematical Formulas** - Not approximations! Every calculation is based on fundamental semiconductor equations and technology-specific parameters derived from MOSFET physics.
 
-## ✨ Key Features
-
-- Quine–McCluskey logic minimization + K-map visualizer (2–4 variables).
-- Exact MOSFET-based delay calculations (rise/fall) and output bit-rate estimation.
-- Area estimation using geometry-aware transistor sizing calculations.
-- Switching & peak power estimation per gate and aggregated.
-- Multi-input NAND/NOR modeling (n inputs), body effect and parasitic capacitance included.
-- Side-by-side NAND+NOT vs NOR+NOT comparison and deterministic multi-criteria recommendation engine.
-- YAML configuration, JSON export, programmatic API, and interactive CLI.
+<br clear="right"/>
 
 ---
 
-## ❓ Why use this project?
+## ✨ Features
 
-- Accurate: Uses transistor-level parameterized models (long-channel square-law) for delay.
-- Comparative: Directly compares NAND-centric vs NOR-centric implementations to drive design choices.
-- Reproducible: Config-driven runs and JSON exports allow reproducible experiments and automated sweeps.
-- Educational: Useful for courses and labs to demonstrate transistor sizing, delay vs. area vs. power trade-offs.
+<table>
+<tr>
+<td width="50%">
 
----
+### 🔧 Logic Minimization
+- ✅ **Quine-McCluskey algorithm**
+- ✅ Boolean function simplification
+- ✅ **K-map visualization** (2, 3, 4 variables)
+- ✅ Prime implicant grouping
+- ✅ Color-coded outputs
 
-## 🎬 Demo Output (Representative)
+### ⚡ Exact Delay Calculation
+- ✅ **Non-linear MOSFET equations**
+- ✅ Precise propagation delays
+- ✅ Separate rise/fall analysis
+- ✅ Capacitance models (cutoff/triode)
+- ✅ Multi-input gate support
 
-```text
-════════════════════════════════════════════════════════════════════════
-   🔬 CMOS LOGIC ANALYZER - EXACT DELAY & AREA CALCULATIONS
-════════════════════════════════════════════════════════════════════════
+### 📐 Area Optimization
+- ✅ **Exact formula**: `n×Wn(ln+2LDn) + wp(lp+2LDp)`
+- ✅ Technology-dependent parameters
+- ✅ Gate-level breakdown
+- ✅ Silicon footprint minimization
 
-✓ Technology: 0.35µm CMOS
-✓ Function: F = A + B + C + D
-✓ Analysis: NAND+NOT vs NOR+NOT
+</td>
+<td width="50%">
+
+### 🔋 Power Analysis
+- ✅ **Maximum power dissipation**
+- ✅ Switching voltage calculation
+- ✅ Dynamic power estimation
+- ✅ Gate-level power breakdown
+
+### 🎨 Visual K-Maps
+- ✅ **Color-coded groupings**
+- ✅ Prime implicant highlighting
+- ✅ Interactive ASCII display
+- ✅ 2D/3D representation
+
+### 📊 Comparative Analysis
+- ✅ **NAND+NOT vs NOR+NOT**
+- ✅ 4-criteria optimization scoring
+- ✅ Side-by-side metrics
+- ✅ Design recommendation engine
+- ✅ Performance comparison tables
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### 🎬 Demo Output
+
+```
+================================================================================
+   CMOS LOGIC ANALYZER WITH EXACT DELAY AND AREA CALCULATIONS
+================================================================================
+
+✓ Selected: 0.35um CMOS
+✓ Minimized: F = A + B + C + D
+✓ Analyzed: NAND+NOT vs NOR+NOT
 
 ╔════════════════════════╦═══════════════╦═══════════════╗
-║ Performance Metric     ║ NAND+NOT      ║ NOR+NOT       ║
+║ Metric                 ║ NAND+NOT      ║ NOR+NOT       ║
 ╠════════════════════════╬═══════════════╬═══════════════╣
-║ Total Delay (ns)       ║ 2.456         ║ 2.189  ✓      ║
-║ Bit Rate (MHz)         ║ 407.18        ║ 456.82 ✓      ║
-║ Total Area (μm²)       ║ 45.23         ║ 42.15  ✓      ║
-║ Max Power (μW)         ║ 12.34         ║ 11.02  ✓      ║
-║ Gate Count             ║ 6             ║ 5      ✓      ║
+║ Total Delay (ns)       ║ 2.456         ║ 2.189         ║
+║ Bit Rate (MHz)         ║ 407.18        ║ 456.82        ║
+║ Total Area (μm²)       ║ 45.23         ║ 42.15         ║
+║ Max Power (μW)         ║ 12.34         ║ 11.02         ║
 ╚════════════════════════╩═══════════════╩═══════════════╝
 
 🏆 RECOMMENDED DESIGN: NOR+NOT
-   └─ Superior in all 5 optimization criteria
 ```
+
+</div>
 
 ---
 
-## 🔬 Supported CMOS Technologies (examples)
+## 🔬 Supported CMOS Technologies
 
-| Technology | Gate Oxide | Vth (±V) | µn (cm²/V·s) | µp (cm²/V·s) | Typical Use |
-|:----------:|:----------:|:--------:|:------------:|:------------:|:-----------:|
-| 1.0 µm     | 20 nm      | ±0.9     | 450          | 180          | Legacy / Teaching |
-| 0.8 µm     | 16 nm      | ±0.8     | 460          | 185          | Moderate Performance |
-| 0.6 µm     | 12 nm      | ±0.75    | 470          | 190          | Standard Logic |
-| 0.5 µm     | 10 nm      | ±0.7     | 460          | 190          | High-Speed Logic |
-| 0.35 µm    | 7 nm       | ±0.5     | 500          | 200          | Advanced VLSI/Research |
+<div align="center">
 
-You can add or override technology parameters using the `constants.py` (or via `TechSpecs.from_dict(...)` API when available).
+| Technology | Gate Oxide | V<sub>th</sub> (V) | μ<sub>n</sub> | μ<sub>p</sub> | Applications |
+|:----------:|:----------:|:------------------:|:-------------:|:-------------:|:-------------|
+| **1.0µm** | 20 nm | ±0.9 | 450 cm²/V·s | 180 cm²/V·s | 🎓 Legacy systems, education |
+| **0.8µm** | 16 nm | ±0.8 | 460 cm²/V·s | 185 cm²/V·s | 🔧 Moderate performance |
+| **0.6µm** | 12 nm | ±0.75 | 470 cm²/V·s | 190 cm²/V·s | ⚙️ Standard digital logic |
+| **0.5µm** | 10 nm | ±0.7 | 460 cm²/V·s | 190 cm²/V·s | 🚀 High-speed circuits |
+| **0.35µm** | 7 nm | ±0.5 | 500 cm²/V·s | 200 cm²/V·s | 💎 Advanced VLSI |
+
+</div>
 
 ---
 
 ## 🚀 Installation
 
-Requirements:
-- Python 3.7+
-- pip
-
-Quick install (from GitHub):
+### 📋 Prerequisites
 
 ```bash
+✓ Python 3.7 or higher
+✓ pip package manager
+```
+
+### ⚡ Quick Start
+
+```bash
+# 1️⃣ Clone the repository
 git clone https://github.com/yourusername/cmos-logic-analyzer.git
 cd cmos-logic-analyzer
 
-# (Recommended) create and activate virtual environment
-python -m venv venv
-source venv/bin/activate   # macOS / Linux
-venv\Scripts\activate      # Windows
+# 2️⃣ Install dependencies
+pip install colorama tabulate
 
-# Install dependencies
-pip install -r requirements.txt
-```
-
-Minimal runtime dependencies:
-- colorama
-- tabulate
-- numpy
-- pyyaml
-
-Install minimal dependencies via pip:
-
-```bash
-pip install colorama tabulate numpy pyyaml
-```
-
----
-
-## 🧭 Quick Start
-
-Run the interactive CLI:
-
-```bash
+# 3️⃣ Run the analyzer
 python main.py
 ```
 
-Run using a YAML configuration:
+### 🔧 Installation with Virtual Environment
 
 ```bash
-python main.py --config examples/config.yml
-```
+# Create virtual environment
+python -m venv venv
 
-Run programmatically (example script):
+# Activate (Windows)
+venv\Scripts\activate
 
-```python
-from cmos_logic_analyzer import Analyzer, TechSpecs
+# Activate (Unix/MacOS)
+source venv/bin/activate
 
-tech = TechSpecs.from_name("0.35um")
-an = Analyzer(tech=tech, Wn=2.0, Ln=0.35, Wp=4.0, Lp=0.35)
+# Install dependencies
+pip install -r requirements.txt
 
-res = an.analyze_sop(num_vars=4, minterms=[1,3,5,7,9,11,13,15])
-print(res.summary_table())
-```
-
----
-
-## 🎮 Usage
-
-### Interactive CLI
-
-When you run `python main.py` the CLI will guide you through:
-
-1. Selecting CMOS technology (preset or custom).
-2. Entering transistor sizing (Wn, Ln, Wp, Lp) or using defaults.
-3. Selecting logic mode (SOP/POS) and entering minterms/maxterms.
-4. Displaying K-map (2–4 variables), minimized expression, NAND/NOR implementations, and metrics.
-
-### Command-line Arguments
-
-(Example; actual flags may vary — consult `main.py --help`)
-
-```bash
-python main.py --tech 0.35um --mode SOP --vars 4 --minterms 1,3,5,7,9,11,13,15 --output markdown
-python main.py --config path/to/config.yaml
-python main.py --json-out results.json
-```
-
-### Programmatic API
-
-Primary classes:
-- TechSpecs: load or create technology parameter sets.
-- Analyzer: top-level orchestration (minimization, mapping, delay/area/power).
-- Result (or AnalysisReport): structured output, exports (markdown/json), and helper visualizations.
-
-Example:
-
-```python
-from cmos_logic_analyzer import Analyzer, TechSpecs
-
-tech = TechSpecs.from_name("0.5um")
-analyzer = Analyzer(tech=tech)
-
-report = analyzer.analyze_pos(num_vars=3, maxterms=[0,2,5])
-print(report.minimized_expression)
-print(report.metrics)         # dict with delay, area, power
-```
-
-### Configuration File (YAML)
-
-A sample `config.yml`:
-
-```yaml
-technology: "0.35um"
-transistors:
-  Wn: 2.0
-  Ln: 0.35
-  Wp: 4.0
-  Lp: 0.35
-logic:
-  mode: "SOP"
-  variables: 4
-  minterms: [1,3,5,7,9,11,13,15]
-output:
-  format: "markdown"   # options: markdown, ascii, json
-  save: "results.md"
-```
-
-Run:
-
-```bash
-python main.py --config config.yml
+# Run
+python main.py
 ```
 
 ---
@@ -264,240 +186,625 @@ python main.py --config config.yml
 ```
 cmos-logic-analyzer/
 │
-├── main.py                      # CLI entrypoint & runner
-├── constants.py                 # Physical constants & tech specs
-├── mosfet.py                    # MOSFET parameter calculations
-├── logic_minimizer.py           # Quine–McCluskey & K-map engine
-├── design_implementer.py        # NAND/NOR implementation generator
-├── delay_calculator.py          # Exact delay formulas
-├── performance_analyzer.py      # Area, power, bit rate analysis
-├── comparator.py                # Compare & recommend designs
-├── visualizer.py                # K-map, ASCII/Markdown tables & plots
-├── examples/                     # Example configs and example runs
-├── tests/                        # Unit tests
-├── requirements.txt             # Python dependencies
-├── README.md                    # This file (enhanced)
-└── LICENSE                      # MIT license
+├── 📄 main.py                    # Main application entry point
+├── 📄 constants.py               # Physical constants & CMOS datasheets
+├── 📄 mosfet.py                 # MOSFET parameter calculations
+├── 📄 logic_minimizer.py        # Quine-McCluskey & K-map generation
+├── 📄 design_implementer.py     # NAND/NOR implementations
+├── 📄 delay_calculator.py       # Exact delay formulas
+├── 📄 performance_analyzer.py   # Area, power, bit rate analysis
+├── 📄 comparator.py             # Design comparison engine
+├── 📄 requirements.txt          # Python dependencies
+├── 📄 README.md                 # This file
+└── 📄 LICENSE                   # MIT License
 ```
+
+<details>
+<summary><b>📦 Module Descriptions (Click to expand)</b></summary>
+
+| Module | Description |
+|--------|-------------|
+| `main.py` | Interactive CLI with colorful output using colorama |
+| `constants.py` | Physical constants (q, ε₀, εsi) and 5 CMOS technology datasheets |
+| `mosfet.py` | Calculates Cox, Kn, Kp, Vth, and all parasitic capacitances |
+| `logic_minimizer.py` | Implements Quine-McCluskey algorithm with K-map visualization |
+| `design_implementer.py` | Converts SOP to NAND+NOT and NOR+NOT gate implementations |
+| `delay_calculator.py` | Exact delay formulas for NOT, NAND, and NOR gates |
+| `performance_analyzer.py` | Calculates area, power dissipation, and maximum bit rate |
+| `comparator.py` | Compares both designs and recommends optimal implementation |
+
+</details>
 
 ---
 
-## 🧮 Mathematical Foundations (selected / summary)
+## 💡 Usage
 
-This section summarizes the principal formulas used in the analyzer. For full derivations, see the module docstrings in `delay_calculator.py`, `mosfet.py`.
-
-NOT gate (simplified) — load & time constants:
-
-```text
-C_load = n(Cgd_p + Cgd_n) + Cdb_p + Cdb_n + Cgb_p
-
-Z_NOT^- = Rn × C_load    where Rn = 1/(K_n × (VDD - Vth_n))
-Z_NOT^+ = Rp × C_load    where Rp = 1/(K_p × (VDD - |Vth_p|))
-```
-
-NAND / NOR multi-input delay (abridged):
-
-```text
-Z_NAND^- = f(n, C_load^-, K_n, a)   # See delay_calculator.py
-Z_NOR^+  = f(n, C_load^+, K_p, a)   # See delay_calculator.py
-```
-
-Area (per gate):
-
-```text
-Area_gate = n * Wn * (ln + 2*LDn) + Wp*(lp + 2*LDp)   # [μm^2]
-```
-
-Switching power (approx.):
-
-```text
-V_inss = (√K_n * Vth_n + √K_p * (VDD - Vth_p)) / (√K_n + √K_p)
-P_max ≈ G * (K_n / 2) × (V_inss - Vth_n)^2 × VDD   # [μW]
-```
-
-The library computes rise/fall delays separately and aggregates them into a total propagation delay metric and derived bit-rate.
-
----
-
-## 🔧 Design & Implementation Notes
-
-- MOSFET modeling: Current implementation relies on long-channel square-law approximations. This makes the models reasonable for technologies >= ~0.35µm. For short-channel nodes (sub-0.18µm), accuracy degrades; BSIM or measured models are recommended.
-- Capacitances: Intrinsic gate/drain/body capacitances are modeled and included in C_load. Interconnect capacitance is not modeled by default but can be provided by the user as an external C_load.
-- Sizing: Default transistor sizing aims for logical effort balance, but the API allows full manual control over W/L to support design-space sweeps.
-- Multi-criteria decision: Uses equal weights for area/speed/power/complexity by default; weights can be customized in configuration or API.
-
----
-
-## 🛠 Examples & Typical Workflows
-
-1. Quick evaluation (interactive):
-   - Run `python main.py` -> choose tech 0.35um, SOP, 4 vars, enter minterms -> get summary & recommendation.
-
-2. Single-run (config):
-   - Create `config.yml` and run `python main.py --config config.yml` -> exports markdown report and JSON.
-
-3. Batch sweep (programmatic):
-   - Use the API to iterate over Wn/Wp pairs or tech choices and write CSV/JSON results for plotting trade-offs.
-
-4. Research mode:
-   - Call Analyzer directly in a Jupyter notebook; collect results for statistical analysis.
-
-Example script for sweeping Wn:
-
-```python
-from cmos_logic_analyzer import Analyzer, TechSpecs
-import json
-
-tech = TechSpecs.from_name("0.35um")
-results = []
-for Wn in [1.0, 1.5, 2.0, 3.0]:
-    an = Analyzer(tech=tech, Wn=Wn, Wp=2*Wn)
-    r = an.analyze_sop(4, [1,3,5,7,9,11,13,15])
-    results.append(r.metrics)
-
-with open('sweep_results.json', 'w') as f:
-    json.dump(results, f, indent=2)
-```
-
----
-
-## ✅ Testing & CI
-
-- Unit tests are stored under `tests/` and cover logic minimization, K-map generation, core delay equations, and API stability.
-- Recommended test runner: `pytest`
-- Example:
+### 🎮 Interactive Mode
 
 ```bash
-pip install -r requirements-dev.txt
-pytest -q
+python main.py
 ```
 
-- CI: Add GitHub Actions to run tests on push & PR. A sample workflow (`.github/workflows/ci.yml`) should:
-  - Setup Python
-  - Install deps
-  - Run `pytest`
-  - Run `flake8` or `pylint` (optional linting)
+<details>
+<summary><b>📸 Step-by-Step Guide (Click to expand)</b></summary>
+
+#### **Step 1: Select Technology**
+```
+Available CMOS Technologies:
+1. 1.0um CMOS
+2. 0.8um CMOS
+3. 0.6um CMOS
+4. 0.5um CMOS
+5. 0.35um CMOS
+
+Select technology number: 5
+```
+
+#### **Step 2: Enter MOSFET Dimensions**
+```
+Enter NMOS width Wn (µm): 2.0
+Enter NMOS length Ln (µm): 0.35
+Enter PMOS width Wp (µm): 4.0
+Enter PMOS length Lp (µm): 0.35
+Enter body-source voltage VBS (V): 0
+```
+
+#### **Step 3: Input Logic Function**
+```
+Use SOP (minterms) or POS (maxterms)? [S/P]: S
+Enter number of variables: 4
+Enter minterms separated by commas: 1,3,5,7,9,11,13,15
+Enter don't care terms (optional): 
+```
+
+#### **Step 4: View Results**
+- ✅ Minimized logic expression
+- ✅ Color-coded K-map
+- ✅ NAND+NOT implementation with gate count
+- ✅ NOR+NOT implementation with gate count
+- ✅ Performance comparison table
+- ✅ Optimization analysis
+- ✅ **Design recommendation**
+
+</details>
+
+### 📊 Example Session
+
+```
+╔════════════════════════════════════════════════════════════════╗
+║           CMOS LOGIC ANALYZER - ANALYSIS COMPLETE              ║
+╚════════════════════════════════════════════════════════════════╝
+
+Selected Technology: 0.35um CMOS
+
+TRANSISTOR PARAMETERS:
+  • Cox = 4.930e-03 F/m²
+  • Kn = 2.816e-02 μA/V²
+  • Kp = 1.126e-02 μA/V²
+  • Vth_n = 0.500 V
+  • Vth_p = -0.600 V
+
+MINIMIZED LOGIC FUNCTION (SOP):
+  F = A + B + C + D
+
+IMPLEMENTATION COMPARISON:
+
+┌─────────────────────┬─────────────┬─────────────┐
+│ Metric              │ NAND+NOT    │ NOR+NOT     │
+├─────────────────────┼─────────────┼─────────────┤
+│ Total Gates         │ 6           │ 5           │
+│ Total Delay (ns)    │ 2.456       │ 2.189       │
+│ Bit Rate (MHz)      │ 407.18      │ 456.82      │
+│ Total Area (μm²)    │ 45.23       │ 42.15       │
+│ Max Power (μW)      │ 12.34       │ 11.02       │
+└─────────────────────┴─────────────┴─────────────┘
+
+🏆 RECOMMENDED DESIGN: NOR+NOT
+
+ADVANTAGES:
+  ✓ Smaller area by 3.08 μm²
+  ✓ Lower power by 1.32 μW
+  ✓ Higher speed by 49.64 MHz
+  ✓ Fewer gates by 1
+
+Analysis Complete!
+```
 
 ---
 
-## ❓ Troubleshooting & FAQ
+## 🧮 Mathematical Formulas
 
-Q: Results seem unrealistic for modern nodes (e.g., 7nm)
-- A: The models are long-channel. For sub-0.18µm, use BSIM or measured parameters. We plan to add BSIM support.
+### 📊 NOT Gate Delay
 
-Q: Can I include wire/interconnect capacitance?
-- A: Not by default. Add the expected downstream C_load value to the analyzer via the API or modify node capacitances directly.
+<table>
+<tr><td>
 
-Q: My K-map doesn't display for >4 variables
-- A: K-map visualization intentionally limited to 2–4 variables. For larger variable counts, rely on the Quine–McCluskey minimizer (text/JSON outputs).
+**Load Capacitance (V<sub>BS</sub> ≠ 0):**
+```
+Cload = n(Cgd_pc + Cgd_nt + Cdb_pt) + Cdb_nc + Cgb_pc
+```
 
-If you find any issue, please open an issue on the repository and include:
-- Repro steps
-- Config or CLI inputs
-- Python version & `requirements.txt` output
+**Load Capacitance (V<sub>BS</sub> = 0):**
+```
+Cload = n(Cgd_pc + Cgd_nt) + Cdb_pc + Cdb_nc + Cgb_pc
+```
+
+**Delays:**
+```
+Z_NOT⁻ = Rn × Cload    where Rn = 1/(Kn×(VDD - Vth_n))
+Z_NOT⁺ = Rp × Cload    where Rp = 1/(Kp×(VDD - |Vth_p|))
+```
+
+</td></tr>
+</table>
+
+### ⚡ NAND Gate Delay
+
+<table>
+<tr><td>
+
+**Parameters:**
+```
+a = VDD - Vth_n
+X₁ = a(1 - √(1/n))
+X₂ = a(1 - √(1/n [1 + (1 - Vth_n/a)²(n-1)]))
+```
+
+**Falling Edge Delay:**
+```
+Z_ND⁻ = (n × Cload⁻ × 10⁶) / ((n² - 1)Kn × a) × [
+        (n-1)ln((a - X₂/2)/(a - X₁/2)) + 
+        2ln((1 - (n/(n-1))X₂/2)/(1 - (n/(n-1))X₁/2)) + 
+        (n+1)ln(X₁/X₂)]
+```
+
+**Rising Edge Delay:**
+```
+Z_ND⁺ = I⁺  (NOT gate rise delay)
+```
+
+</td></tr>
+</table>
+
+### 🔄 NOR Gate Delay
+
+<table>
+<tr><td>
+
+**Parameters:**
+```
+a = VDD - |Vth_p|
+X₁ = a(1 - √(1/n))
+X₂ = a(1 - √(1/n [1 + (1 - Vth_p/a)²(n-1)]))
+```
+
+**Rising Edge Delay:**
+```
+Z_NR⁺ = (n × Cload⁺ × 10⁶) / ((n² - 1)Kp × a) × [
+        (n-1)ln((a - X₂/2)/(a - X₁/2)) + 
+        2ln((1 - (n/(n-1))X₂/2)/(1 - (n/(n-1))X₁/2)) + 
+        (n+1)ln(X₁/X₂)]
+```
+
+**Falling Edge Delay:**
+```
+Z_NR⁻ = I⁻  (NOT gate fall delay)
+```
+
+</td></tr>
+</table>
+
+### 📐 Area Calculation
+
+<table>
+<tr><td>
+
+**Per Gate Area:**
+```
+Area = n×Wn(ln + 2LDn) + wp(lp + 2LDp) [μm²]
+
+where:
+  n   = number of inputs
+  Wn  = NMOS width per transistor
+  ln  = NMOS channel length
+  LDn = NMOS lateral diffusion length
+  wp  = PMOS width per transistor
+  lp  = PMOS channel length
+  LDp = PMOS lateral diffusion length
+```
+
+</td></tr>
+</table>
+
+### 🔋 Power Calculation
+
+<table>
+<tr><td>
+
+**Input Switching Voltage:**
+```
+V_inss = (√Kn × Vth_n + √Kp(VDD - Vth_p)) / (√Kn + √Kp)
+```
+
+**Maximum Power Dissipation:**
+```
+Pmax = G × (Kn/2) × (V_inss - Vth_n)² × VDD [μW]
+
+where:
+  G = total number of gates
+```
+
+</td></tr>
+</table>
+
+---
+
+## 🎯 Design Optimization Criteria
+
+<div align="center">
+
+| Criterion | Description | Measurement | Weight |
+|:---------:|-------------|:-----------:|:------:|
+| 🏆 **Area** | Minimizes silicon real estate | μm² | 25% |
+| ⚡ **Speed** | Maximizes operating frequency | MHz | 25% |
+| 🔋 **Power** | Minimizes energy consumption | μW | 25% |
+| 🎚️ **Gates** | Reduces circuit complexity | Count | 25% |
+
+</div>
+
+### 📈 Optimization Algorithm
+
+```python
+# Scoring system (4 criteria)
+for each criterion:
+    if NAND+NOT is better:
+        score_NAND += 1
+    elif NOR+NOT is better:
+        score_NOR += 1
+
+# Winner determination
+if scores are tied:
+    winner = design_with_smaller_area  # Tie-breaker
+else:
+    winner = design_with_higher_score
+```
+
+---
+
+## 🔍 Technical Highlights
+
+<div align="center">
+
+### 💎 Advanced Features
+
+</div>
+
+| Feature | Description |
+|---------|-------------|
+| ✅ **Non-linear delay models** | Exact logarithmic equations, not RC approximations |
+| ✅ **Body effect consideration** | Accurate V<sub>th</sub> calculation with V<sub>BS</sub> variations |
+| ✅ **Capacitance extraction** | Separate cutoff and triode region capacitances |
+| ✅ **Load calculation** | C<sub>gd</sub>, C<sub>gs</sub>, C<sub>db</sub>, C<sub>gb</sub> for each transistor |
+| ✅ **Multi-input gates** | 2-input to n-input NAND/NOR with exact formulas |
+| ✅ **Technology scaling** | Accurate parameters from 1.0µm to 0.35µm |
+
+### 🔬 Calculation Methodology
+
+```mermaid
+graph LR
+    A[Input Function] --> B[Logic Minimization]
+    B --> C[K-Map Generation]
+    C --> D[Gate Implementation]
+    D --> E[NAND+NOT]
+    D --> F[NOR+NOT]
+    E --> G[Delay Analysis]
+    F --> G
+    G --> H[Area Calculation]
+    H --> I[Power Analysis]
+    I --> J[Comparison & Recommendation]
+```
+
+<details>
+<summary><b>📊 Detailed Analysis Pipeline (Click to expand)</b></summary>
+
+1. **MOSFET Parameters**
+   - Calculate C<sub>ox</sub> from oxide thickness
+   - Determine K<sub>n</sub> and K<sub>p</sub> from mobility
+   - Compute threshold voltages with body effect
+   - Extract all parasitic capacitances
+
+2. **Logic Minimization**
+   - Apply Quine-McCluskey algorithm
+   - Generate prime implicants
+   - Create K-map visualization
+   - Produce minimal SOP expression
+
+3. **Implementation Conversion**
+   - NAND+NOT: Use De Morgan's laws
+   - NOR+NOT: Direct mapping
+   - Track gate hierarchy and fanout
+
+4. **Performance Analysis**
+   - Calculate exact delays using non-linear models
+   - Sum delays along critical path
+   - Compute area with technology formula
+   - Estimate maximum power dissipation
+
+5. **Comparison & Optimization**
+   - Score on 4 criteria (area, speed, power, gates)
+   - Determine winner with tie-breaker
+   - Provide detailed advantages
+
+</details>
+
+---
+
+## ⚠️ Limitations & Assumptions
+
+> **📌 Important Notes:**
+
+| Assumption | Description |
+|------------|-------------|
+| ⚙️ **Ideal switching** | No noise or signal integrity issues |
+| 🌡️ **Temperature** | Room temperature operation (T = 300K) |
+| ⚡ **Supply voltage** | Fixed V<sub>DD</sub> = 5.0V |
+| 🔌 **Interconnects** | Neglects RC wiring parasitics |
+| 📐 **MOSFET model** | Square-law (long-channel approximation) |
+| 🎚️ **Gate stages** | Single-stage gates only |
+| 📊 **Logic style** | Static CMOS only (no dynamic/ratioed) |
+
+### 🚀 Future Enhancements
+
+- [ ] Deep submicron technologies (<0.18µm)
+- [ ] Advanced BSIM models (BSIM4, BSIM6)
+- [ ] Interconnect delay modeling
+- [ ] Temperature and voltage variations
+- [ ] Monte Carlo analysis for process variations
+- [ ] Power-delay product optimization
+- [ ] Export to SPICE netlist format
+- [ ] PDF report generation
+- [ ] Web-based GUI interface
+- [ ] Multi-level logic optimization
+
+---
+
+## 📸 Screenshots
+
+<details>
+<summary><b>🎨 K-Map Visualization (Click to expand)</b></summary>
+
+```
+╔════════════════════════════════════════════════════════════╗
+║                  4-VARIABLE KARNAUGH MAP                   ║
+╚════════════════════════════════════════════════════════════╝
+
+     AB\CD │  00  │  01  │  11  │  10  │
+    ───────┼──────┼──────┼──────┼──────┤
+       00  │  [1] │  [1] │  [1] │  [1] │  ← Group 1
+       01  │  [1] │  [1] │  [1] │  [1] │  ← Group 2
+       11  │  [1] │  [1] │  [1] │  [1] │  ← Group 3
+       10  │  [1] │  [1] │  [1] │  [1] │  ← Group 4
+    
+Prime Implicants: [colored groups displayed]
+Minimized Expression: F = A + B + C + D
+```
+
+</details>
+
+<details>
+<summary><b>📊 Performance Comparison Table (Click to expand)</b></summary>
+
+```
+╔════════════════════════════════════════════════════════════╗
+║           COMPREHENSIVE IMPLEMENTATION COMPARISON          ║
+╚════════════════════════════════════════════════════════════╝
+
+┌───────────────────────┬───────────────┬───────────────┐
+│ Gate Count Comparison │   NAND+NOT    │   NOR+NOT     │
+├───────────────────────┼───────────────┼───────────────┤
+│ NAND Gates            │       2       │      N/A      │
+│ NOR Gates             │      N/A      │       2       │
+│ NOT Gates             │       4       │       3       │
+│ Total Gates           │       6       │       5       │
+└───────────────────────┴───────────────┴───────────────┘
+
+┌───────────────────────┬───────────────┬───────────────┐
+│ Performance Metrics   │   NAND+NOT    │   NOR+NOT     │
+├───────────────────────┼───────────────┼───────────────┤
+│ Total Delay (ns)      │    2.456      │    2.189      │
+│ Bit Rate (Hz)         │  4.072e+08    │  4.568e+08    │
+│ Bit Rate (MHz)        │    407.18     │    456.82     │
+│ Total Area (μm²)      │    45.23      │    42.15      │
+│ Max Power (μW)        │    12.34      │    11.02      │
+└───────────────────────┴───────────────┴───────────────┘
+
+╔════════════════════════════════════════════════════════════╗
+║               OPTIMIZATION ANALYSIS                        ║
+╚════════════════════════════════════════════════════════════╝
+
+1. OPTIMUM AREA:
+   • NOR+NOT design has optimum area: 42.15 μm²
+   • Area saving: 6.8% compared to NAND+NOT
+
+2. MAXIMUM POWER:
+   • NOR+NOT design has lower power: 11.02 μW
+   • Power saving: 10.7% compared to NAND+NOT
+
+3. MAXIMUM BIT RATE:
+   • NOR+NOT design has higher bit rate: 456.82 MHz
+   • Speed improvement: 12.2% compared to NAND+NOT
+
+╔════════════════════════════════════════════════════════════╗
+║             OVERALL RECOMMENDATION                         ║
+╚════════════════════════════════════════════════════════════╝
+
+Optimization Scores:
+  • NAND+NOT: 0/4 optimization criteria
+  • NOR+NOT: 4/4 optimization criteria
+
+🏆 RECOMMENDED DESIGN: NOR+NOT
+Primary Reason: Superior in more optimization criteria
+
+Key Advantages of NOR+NOT:
+  • Smaller area by 3.08 μm²
+  • Lower power by 1.32 μW
+  • Higher speed by 49.64 MHz
+  • Fewer gates by 1
+```
+
+</details>
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions!
+<div align="center">
 
-Suggested workflow:
-1. Fork the repo.
-2. Create a branch (feature/xxx).
-3. Add tests and documentation.
-4. Open a focused pull request describing intent and impact.
+### 🌟 We Welcome Contributors!
 
-Guidelines:
-- Follow PEP 8 and type-hint where helpful.
-- Include docstrings for new modules/functions.
-- Add unit tests for new algorithms or bug fixes.
-- Keep PRs focused and atomic.
+</div>
 
-Please sign the Contributor License Agreement (CLA) if required by the repository owner.
+Contributions are welcome! Here's how you can help improve this project:
+
+<table>
+<tr>
+<td width="33%">
+
+### 🔬 Research
+- Add CMOS technologies
+- Implement BSIM models
+- Advanced delay models
+- Process variation analysis
+
+</td>
+<td width="33%">
+
+### 💻 Development
+- Web interface (React/Vue)
+- Mobile app
+- GUI with PyQt/Tkinter
+- API development
+- Export features
+
+</td>
+<td width="33%">
+
+### 📚 Documentation
+- Tutorials & guides
+- Video demonstrations
+- API documentation
+- Translation
+- Examples library
+
+</td>
+</tr>
+</table>
+
+### 📝 How to Contribute
+
+1. **🍴 Fork** the repository
+2. **🌿 Create** a feature branch
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. **💾 Commit** your changes
+   ```bash
+   git commit -m 'Add some AmazingFeature'
+   ```
+4. **📤 Push** to the branch
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. **🎉 Open** a Pull Request
+
+### 📋 Contribution Guidelines
+
+- Follow PEP 8 style guidelines
+- Add docstrings to all functions
+- Include type hints where appropriate
+- Write unit tests for new features
+- Update documentation
+- Add examples for new functionality
 
 ---
 
-## 🔒 Security & Responsible Disclosure
+## 📜 License
 
-If you discover a security issue:
-- Do NOT post exploit details in public issues.
-- Email the repository owner securely: muhammad.al.ajami.se@gmail.com
-- Provide: affected versions, reproduction steps, and suggested mitigation if possible.
+<div align="center">
 
----
+```
+MIT License
 
-## 🚀 Roadmap
-
-Planned features and improvements (priority order):
-
-- [ ] BSIM-level short-channel modeling (improved delay accuracy for sub-0.18µm nodes)
-- [ ] Interconnect-aware delay & parasitic RC modeling
-- [ ] GUI for visualization and interactive K-map editing
-- [ ] Graph export (Graphviz) for gate-netlist visualization
-- [ ] Integration with SPICE netlists and simple SPICE-based verification
-- [ ] Improved power models (statistical switching, leakage)
-
-Contributions to accelerate any of these items are highly welcome.
-
----
-
-## 📝 Changelog (high level)
-
-- 2024-01-10 — Initial public release: core analysis, Quine–McCluskey minimizer, K-map (2–4 vars).
-- 2024-06-15 — Added multi-input NAND/NOR delay formulas & area model refinements.
-- 2024-11-05 — CLI improvements, YAML config support, JSON export.
-- 2025-12-24 — README enhanced: full docs, more examples, and expanded troubleshooting.
-
-(For detailed history, consult Git tags and commit messages.)
-
----
-
-## 👨‍💻 Author & Contacts
-
-Muhammad Abdulhamid — Digital Circuit Designer & VLSI Engineer  
-- GitHub: [Muhammad-296](https://github.com/Muhammad-296)  
-- LinkedIn: [muhammad-abdulhamid](https://www.linkedin.com/in/muhammad-abdulhamid/)  
-- Email: muhammad.al.ajami.se@gmail.com
-
-If you use this tool in research, please cite the repository and the modules you used.
-
----
-
-## 📜 License (MIT — full text included)
-
-Copyright (c) 2025 Muhammad Abdulhamid
+Copyright (c) 2024 CMOS Logic Analyzer
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+copies of the Software.
+```
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+**[View Full License](LICENSE)**
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+</div>
 
 ---
 
-## 📚 References & Acknowledgements
+## 👨‍💻 Author
 
-- Weste & Harris — CMOS VLSI Design (4th ed.)
-- Rabaey et al. — Digital Integrated Circuits
-- Berkeley BSIM documentation
-- MIT OpenCourseWare — VLSI Design
-- Quine–McCluskey algorithm — [Wikipedia](https://en.wikipedia.org/wiki/Quine%E2%80%93McCluskey_algorithm)
+<div align="center">
 
-Thanks to early contributors and reviewers for feedback on delay formulas and test cases.
+<img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px">
+
+**Created with ❤️ for Digital Circuit Designers & VLSI Engineers**
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/yourusername)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourhandle)
+
+</div>
 
 ---
 
-If this project helped you, please give it a ⭐ on GitHub and consider contributing!
+## 🙏 Acknowledgments
+
+<div align="center">
+
+Special thanks to:
+
+🎓 **VLSI Design Community** • 👥 **Contributors & Testers** • 📚 **Academic Resources**
+
+</div>
+
+---
+
+## 📚 References
+
+### 📖 Textbooks
+
+1. **Weste, N. H. E., & Harris, D.** (2010). *CMOS VLSI Design: A Circuits and Systems Perspective* (4th ed.). Addison-Wesley.
+2. **Rabaey, J. M., Chandrakasan, A., & Nikolic, B.** (2003). *Digital Integrated Circuits: A Design Perspective* (2nd ed.). Prentice Hall.
+3. **Sedra, A. S., & Smith, K. C.** (2015). *Microelectronic Circuits* (7th ed.). Oxford University Press.
+
+### 🔬 Technical Resources
+
+4. **BSIM Model Documentation** - Berkeley Short-channel IGFET Model
+5. **MOSIS Integrated Circuit Fabrication Service** - Process specifications
+6. **IEEE Xplore** - Research papers on CMOS delay modeling
+
+### 🌐 Online Resources
+
+7. [MIT OpenCourseWare - VLSI Design](https://ocw.mit.edu/)
+8. [CMOS Logic Gates Tutorial](https://www.electronics-tutorials.ws/)
+9. [Quine-McCluskey Algorithm](https://en.wikipedia.org/wiki/Quine%E2%80%93McCluskey_algorithm)
+
+---
+
+## 📈 Project Statistics
+
+<div align="center">
+
+![GitHub stars](https://img.shields.io/github/stars/yourusername/cmos-logic-analyzer?style=social)
+![GitHub forks](https://img.shields.io/github/forks/yourusername/cmos-logic-analyzer?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/yourusername/cmos-
