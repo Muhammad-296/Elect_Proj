@@ -38,65 +38,78 @@ A **comprehensive Python-based tool** for analyzing and optimizing CMOS logic ci
 
 <br clear="right"/>
 
----
+<div align="center">
 
 ## ✨ Features
 
-<table>
+<table width="100%">
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🔧 Logic Minimization
-- ✅ **Quine-McCluskey algorithm**
-- ✅ Boolean function simplification
-- ✅ **K-map visualization** (2, 3, 4 variables)
-- ✅ Prime implicant grouping
-- ✅ Color-coded outputs
+<h3>🔧 Logic Minimization</h3>
+<ul>
+<li>🚀 <b>Quine-McCluskey algorithm</b> for exact simplification</li>
+<li>🧩 Boolean function reduction & simplification</li>
+<li>🎨 <b>K-map visualization</b> (2–4 variables)</li>
+<li>🔹 Prime implicant grouping & highlighting</li>
+<li>🌈 Color-coded outputs for intuitive analysis</li>
+</ul>
 
-### ⚡ Exact Delay Calculation
-- ✅ **Non-linear MOSFET equations**
-- ✅ Precise propagation delays
-- ✅ Separate rise/fall analysis
-- ✅ Capacitance models (cutoff/triode)
-- ✅ Multi-input gate support
+<h3>⚡ Precise Delay Analysis</h3>
+<ul>
+<li>⚡ <b>Non-linear MOSFET equations</b> for high accuracy</li>
+<li>⏱ Exact propagation delay measurement</li>
+<li>🔺 Separate <b>rise/fall</b> delay evaluation</li>
+<li>🧪 Advanced capacitance modeling (cutoff & triode)</li>
+<li>🔗 Multi-input gate support</li>
+</ul>
 
-### 📐 Area Optimization
-- ✅ **Exact formula**: `n×Wn(ln+2LDn) + wp(lp+2LDp)`
-- ✅ Technology-dependent parameters
-- ✅ Gate-level breakdown
-- ✅ Silicon footprint minimization
+<h3>📐 Area Optimization</h3>
+<ul>
+<li>📏 <b>Exact area formula</b>: <code>n×Wn(ln+2LDn) + wp(lp+2LDp)</code></li>
+<li>🏭 Technology-dependent parameter integration</li>
+<li>🔍 Gate-level footprint breakdown</li>
+<li>💾 Silicon area minimization strategies</li>
+</ul>
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🔋 Power Analysis
-- ✅ **Maximum power dissipation**
-- ✅ Switching voltage calculation
-- ✅ Dynamic power estimation
-- ✅ Gate-level power breakdown
+<h3>🔋 Power Analysis</h3>
+<ul>
+<li>⚡ <b>Maximum power dissipation</b> estimation</li>
+<li>🔌 Switching voltage & dynamic power calculation</li>
+<li>🧮 Gate-level power breakdown</li>
+<li>🌱 Energy-efficient design recommendations</li>
+</ul>
 
-### 🎨 Visual K-Maps
-- ✅ **Color-coded groupings**
-- ✅ Prime implicant highlighting
-- ✅ Interactive ASCII display
-- ✅ 2D/3D representation
+<h3>🎨 Interactive K-Maps</h3>
+<ul>
+<li>🌈 <b>Color-coded groupings</b> for clarity</li>
+<li>🔹 Prime implicant highlighting</li>
+<li>📊 Interactive ASCII & visual 2D/3D display</li>
+<li>🖱 Intuitive user interaction & exploration</li>
+</ul>
 
-### 📊 Comparative Analysis
-- ✅ **NAND+NOT vs NOR+NOT**
-- ✅ 4-criteria optimization scoring
-- ✅ Side-by-side metrics
-- ✅ Design recommendation engine
-- ✅ Performance comparison tables
+<h3>📊 Comparative & Decision Analysis</h3>
+<ul>
+<li>⚔ <b>NAND+NOT vs NOR+NOT</b> comparison</li>
+<li>📈 Multi-criteria optimization scoring</li>
+<li>🖥 Side-by-side performance metrics</li>
+<li>🤖 Design recommendation engine</li>
+<li>📑 Detailed comparison tables for informed decisions</li>
+</ul>
 
 </td>
 </tr>
 </table>
-
+</div>
 <div align="center">
 
 ### 🎬 Demo Output
 
 ```
+
 ================================================================================
    CMOS LOGIC ANALYZER WITH EXACT DELAY AND AREA CALCULATIONS
 ================================================================================
