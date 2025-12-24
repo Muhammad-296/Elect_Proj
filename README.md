@@ -106,17 +106,18 @@ A **comprehensive Python-based tool** for analyzing and optimizing CMOS logic ci
 </div>
 <div align="center">
 
-### 🎬 Demo Output
-
-```
-
+<!-- Demo Output Section -->
+<section style="font-family: Arial, sans-serif; margin: 20px 0;">
+  <h2 style="text-align:center; color:#667EEA;">🎬 Demo Output</h2>
+  <div style="background:#f4f4f4; padding:20px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1);">
+    <pre style="font-family: 'Courier New', monospace; font-size:14px;">
 ================================================================================
    CMOS LOGIC ANALYZER WITH EXACT DELAY AND AREA CALCULATIONS
 ================================================================================
 
-✓ Selected: 0.35um CMOS
-✓ Minimized: F = A + B + C + D
-✓ Analyzed: NAND+NOT vs NOR+NOT
+✓ Selected: <strong>0.35µm CMOS</strong>
+✓ Minimized: <strong>F = A + B + C + D</strong>
+✓ Analyzed: <strong>NAND+NOT vs NOR+NOT</strong>
 
 ╔════════════════════════╦═══════════════╦═══════════════╗
 ║ Metric                 ║ NAND+NOT      ║ NOR+NOT       ║
@@ -127,28 +128,72 @@ A **comprehensive Python-based tool** for analyzing and optimizing CMOS logic ci
 ║ Max Power (μW)         ║ 12.34         ║ 11.02         ║
 ╚════════════════════════╩═══════════════╩═══════════════╝
 
-🏆 RECOMMENDED DESIGN: NOR+NOT
-```
+🏆 <strong>RECOMMENDED DESIGN: NOR+NOT</strong>
+    </pre>
+  </div>
+</section>
 
-</div>
+<!-- Supported CMOS Technologies Section -->
+<section style="font-family: Arial, sans-serif; margin: 20px 0;">
+  <h2 style="text-align:center; color:#667EEA;">🔬 Supported CMOS Technologies</h2>
+  <div style="overflow-x:auto; margin-top:10px;">
+    <table style="width:100%; border-collapse: collapse; text-align:center; font-size:14px;">
+      <thead>
+        <tr style="background-color:#667EEA; color:white;">
+          <th style="padding:10px;">Technology</th>
+          <th>Gate Oxide</th>
+          <th>V<sub>th</sub> (V)</th>
+          <th>μ<sub>n</sub> (cm²/V·s)</th>
+          <th>μ<sub>p</sub> (cm²/V·s)</th>
+          <th>Applications</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="background-color:#f0f4ff;">
+          <td><strong>1.0µm</strong></td>
+          <td>20 nm</td>
+          <td>±0.9</td>
+          <td>450</td>
+          <td>180</td>
+          <td>🎓 Legacy systems, education</td>
+        </tr>
+        <tr style="background-color:#ffffff;">
+          <td><strong>0.8µm</strong></td>
+          <td>16 nm</td>
+          <td>±0.8</td>
+          <td>460</td>
+          <td>185</td>
+          <td>🔧 Moderate performance</td>
+        </tr>
+        <tr style="background-color:#f0f4ff;">
+          <td><strong>0.6µm</strong></td>
+          <td>12 nm</td>
+          <td>±0.75</td>
+          <td>470</td>
+          <td>190</td>
+          <td>⚙️ Standard digital logic</td>
+        </tr>
+        <tr style="background-color:#ffffff;">
+          <td><strong>0.5µm</strong></td>
+          <td>10 nm</td>
+          <td>±0.7</td>
+          <td>460</td>
+          <td>190</td>
+          <td>🚀 High-speed circuits</td>
+        </tr>
+        <tr style="background-color:#f0f4ff;">
+          <td><strong>0.35µm</strong></td>
+          <td>7 nm</td>
+          <td>±0.5</td>
+          <td>500</td>
+          <td>200</td>
+          <td>💎 Advanced VLSI</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
 
----
-
-## 🔬 Supported CMOS Technologies
-
-<div align="center">
-
-| Technology | Gate Oxide | V<sub>th</sub> (V) | μ<sub>n</sub> | μ<sub>p</sub> | Applications |
-|:----------:|:----------:|:------------------:|:-------------:|:-------------:|:-------------|
-| **1.0µm** | 20 nm | ±0.9 | 450 cm²/V·s | 180 cm²/V·s | 🎓 Legacy systems, education |
-| **0.8µm** | 16 nm | ±0.8 | 460 cm²/V·s | 185 cm²/V·s | 🔧 Moderate performance |
-| **0.6µm** | 12 nm | ±0.75 | 470 cm²/V·s | 190 cm²/V·s | ⚙️ Standard digital logic |
-| **0.5µm** | 10 nm | ±0.7 | 460 cm²/V·s | 190 cm²/V·s | 🚀 High-speed circuits |
-| **0.35µm** | 7 nm | ±0.5 | 500 cm²/V·s | 200 cm²/V·s | 💎 Advanced VLSI |
-
-</div>
-
----
 
 ## 🚀 Installation
 
