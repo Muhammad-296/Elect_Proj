@@ -800,11 +800,3 @@ Special thanks to:
 9. [Quine-McCluskey Algorithm](https://en.wikipedia.org/wiki/Quine%E2%80%93McCluskey_algorithm)
 
 ---
-
-## 📈 Project Statistics
-
-<div align="center">
-
-![GitHub stars](https://img.shields.io/github/stars/yourusername/cmos-logic-analyzer?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/cmos-logic-analyzer?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/yourusername/cmos-
