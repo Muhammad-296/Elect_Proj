@@ -1,7 +1,8 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=667EEA&center=true&vCenter=true&width=940&lines=⚡+CMOS+Logic+Analyzer+⚡;Advanced+Circuit+Design+%26+Analysis+Tool" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2500&pause=1000&color=34ebe8&center=true&vCenter=true&width=940&lines=⚡+CMOS+Logic+Analyzer+⚡;Circuit+Design+%26+Optimization;Visual+Logic+Simulation+Tool" alt="Typing SVG" />
+
 
 <h3>🔬 Exact Delay • 📐 Area Optimization • 🔋 Power Analysis</h3>
 
