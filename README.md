@@ -37,29 +37,6 @@ A **comprehensive Python-based tool** for analyzing and optimizing CMOS logic ci
 
 <div align="center">
 
-### 🎯 Key Highlights
-
-<table>
-<tr>
-<td align="center" width="33%">
-<img src="https://img.icons8.com/fluency/96/000000/microchip.png" width="80"><br>
-<strong>💎 Exact Formulas</strong><br>
-<sub>Mathematical precision using<br>semiconductor physics equations</sub>
-</td>
-<td align="center" width="33%">
-<img src="https://img.icons8.com/fluency/96/000000/speed.png" width="80"><br>
-<strong>⚡ Performance Analysis</strong><br>
-<sub>Comprehensive delay, area,<br>and power metrics</sub>
-</td>
-<td align="center" width="33%">
-<img src="https://img.icons8.com/fluency/96/000000/compare.png" width="80"><br>
-<strong>📊 Smart Comparison</strong><br>
-<sub>Intelligent design<br>recommendations</sub>
-</td>
-</tr>
-</table>
-
-</div>
 
 ---
 
