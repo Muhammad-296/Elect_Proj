@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B626B89F-80C5-4AC8-AB80-31B4FC29EE46}|Elect_Proj.pyproj|C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\Elect_Proj.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B626B89F-80C5-4AC8-AB80-31B4FC29EE46}|Elect_Proj.pyproj|solutionrelative:Elect_Proj.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B626B89F-80C5-4AC8-AB80-31B4FC29EE46}|Elect_Proj.pyproj|C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\performance_analyzer.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B626B89F-80C5-4AC8-AB80-31B4FC29EE46}|Elect_Proj.pyproj|solutionrelative:performance_analyzer.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B626B89F-80C5-4AC8-AB80-31B4FC29EE46}|Elect_Proj.pyproj|C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\mosfet.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B626B89F-80C5-4AC8-AB80-31B4FC29EE46}|Elect_Proj.pyproj|solutionrelative:mosfet.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B626B89F-80C5-4AC8-AB80-31B4FC29EE46}|Elect_Proj.pyproj|C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\logic_minimizer.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B626B89F-80C5-4AC8-AB80-31B4FC29EE46}|Elect_Proj.pyproj|solutionrelative:logic_minimizer.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B626B89F-80C5-4AC8-AB80-31B4FC29EE46}|Elect_Proj.pyproj|C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\design_implementer.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B626B89F-80C5-4AC8-AB80-31B4FC29EE46}|Elect_Proj.pyproj|solutionrelative:design_implementer.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B626B89F-80C5-4AC8-AB80-31B4FC29EE46}|Elect_Proj.pyproj|C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\delay_calculator.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B626B89F-80C5-4AC8-AB80-31B4FC29EE46}|Elect_Proj.pyproj|solutionrelative:delay_calculator.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B626B89F-80C5-4AC8-AB80-31B4FC29EE46}|Elect_Proj.pyproj|C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\constants.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B626B89F-80C5-4AC8-AB80-31B4FC29EE46}|Elect_Proj.pyproj|solutionrelative:constants.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B626B89F-80C5-4AC8-AB80-31B4FC29EE46}|Elect_Proj.pyproj|C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\comparator.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B626B89F-80C5-4AC8-AB80-31B4FC29EE46}|Elect_Proj.pyproj|solutionrelative:comparator.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "constants.py",
+              "DocumentMoniker": "C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\constants.py",
+              "RelativeDocumentMoniker": "constants.py",
+              "ToolTip": "C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\constants.py",
+              "RelativeToolTip": "constants.py",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwCUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T17:22:05.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "mosfet.py",
+              "DocumentMoniker": "C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\mosfet.py",
+              "RelativeDocumentMoniker": "mosfet.py",
+              "ToolTip": "C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\mosfet.py",
+              "RelativeToolTip": "mosfet.py",
+              "ViewState": "AgIAAEsAAAAAAAAAAADwv2kAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T17:21:34.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "delay_calculator.py",
+              "DocumentMoniker": "C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\delay_calculator.py",
+              "RelativeDocumentMoniker": "delay_calculator.py",
+              "ToolTip": "C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\delay_calculator.py",
+              "RelativeToolTip": "delay_calculator.py",
+              "ViewState": "AgIAADQBAAAAAAAAAADwv1IBAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T17:20:30.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "performance_analyzer.py",
+              "DocumentMoniker": "C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\performance_analyzer.py",
+              "RelativeDocumentMoniker": "performance_analyzer.py",
+              "ToolTip": "C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\performance_analyzer.py",
+              "RelativeToolTip": "performance_analyzer.py",
+              "ViewState": "AgIAANsAAAAAAAAAAAAAwPkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T17:20:02.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "logic_minimizer.py",
+              "DocumentMoniker": "C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\logic_minimizer.py",
+              "RelativeDocumentMoniker": "logic_minimizer.py",
+              "ToolTip": "C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\logic_minimizer.py",
+              "RelativeToolTip": "logic_minimizer.py",
+              "ViewState": "AgIAAHEAAAAAAAAAAADwv48AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T17:19:36.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "design_implementer.py",
+              "DocumentMoniker": "C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\design_implementer.py",
+              "RelativeDocumentMoniker": "design_implementer.py",
+              "ToolTip": "C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\design_implementer.py",
+              "RelativeToolTip": "design_implementer.py",
+              "ViewState": "AgIAAJIAAAAAAAAAAADwv7AAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T17:19:05.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "comparator.py",
+              "DocumentMoniker": "C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\comparator.py",
+              "RelativeDocumentMoniker": "comparator.py",
+              "ToolTip": "C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\comparator.py",
+              "RelativeToolTip": "comparator.py",
+              "ViewState": "AgIAAIoAAAAAAAAAAADwv6gAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T17:18:40.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Elect_Proj.py",
+              "DocumentMoniker": "C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\Elect_Proj.py",
+              "RelativeDocumentMoniker": "Elect_Proj.py",
+              "ToolTip": "C:\\Users\\Mustafa\\Desktop\\Elect_Proj\\Elect_Proj.py",
+              "RelativeToolTip": "Elect_Proj.py",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAwGQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-23T17:18:04.257Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
