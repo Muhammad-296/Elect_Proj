@@ -34,7 +34,8 @@
 
 <img align="right" width="300" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif">
 
-A **comprehensive Python-based tool** for analyzing and optimizing CMOS logic circuits. This analyzer implements **exact delay calculations**, area optimization, and power analysis for digital logic designs using both **NAND+NOT** and **NOR+NOT** implementations.
+A **comprehensive Python-based tool** for analyzing and optimizing CMOS logic circuits. 
+This analyzer implements **exact delay calculations**, area optimization, and power analysis for digital logic designs using both **NAND+NOT** and **NOR+NOT** implementations.
 
 ### 🎯 Key Highlights
 
