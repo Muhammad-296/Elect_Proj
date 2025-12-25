@@ -75,4 +75,84 @@ This analyzer implements **exact delay calculations**, area optimization, and po
 <table>
 <tr>
 <td align="center" width="25%">
-<img src="https://raw.githubusercontent.com
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Page%20with%20Curl.png" width="50" /><br>
+<b>8+ Modules</b><br>
+<sub>Core Components</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Memo.png" width="50" /><br>
+<b>2000+ Lines</b><br>
+<sub>Python Code</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Microchip.png" width="50" /><br>
+<b>5 Technologies</b><br>
+<sub>CMOS Processes</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Test%20Tube.png" width="50" /><br>
+<b>100% Accuracy</b><br>
+<sub>Exact Formulas</sub>
+</td>
+</tr>
+</table>
+
+### Technology Coverage
+
+<table>
+<tr>
+<td align="center" width="20%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="40" /><br>
+<b>1.0µm → 0.35µm</b><br>
+<sub>Process Range</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Electric%20Plug.png" width="40" /><br>
+<b>20nm → 7nm</b><br>
+<sub>Gate Oxide</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="40" /><br>
+<b>±0.5V → ±0.9V</b><br>
+<sub>Threshold Range</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" width="40" /><br>
+<b>450-500 cm²/V·s</b><br>
+<sub>Electron Mobility</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="40" /><br>
+<b>180-200 cm²/V·s</b><br>
+<sub>Hole Mobility</sub>
+</td>
+</tr>
+</table>
+
+### Performance Capabilities
+
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Stopwatch.png" width="50" /><br>
+<b>Up to 500+ MHz</b><br>
+<sub>Maximum Bit Rate</sub>
+</td>
+<td align="center" width="33%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" width="50" /><br>
+<b>Sub-100 μm²</b><br>
+<sub>Optimized Area</sub>
+</td>
+<td align="center" width="33%">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Comet.png" width="50" /><br>
+<b>&lt;50 μW</b><br>
+<sub>Low Power</sub>
+</td>
+</tr>
+</table>
+
+### Algorithm Features
+
+<table>
+<tr>
+<td ali
