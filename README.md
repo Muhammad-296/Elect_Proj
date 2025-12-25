@@ -221,4 +221,90 @@ This analyzer implements **exact delay calculations**, area optimization, and po
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Dynamic power estimation
 - <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Gate-level power breakdown
 
-### �
+### 🎨 Visual K-Maps
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> **Color-coded groupings**
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Prime implicant highlighting
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Interactive ASCII display
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> 2D/3D representation
+
+### 📊 Comparative Analysis
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> **NAND+NOT vs NOR+NOT**
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> 4-criteria optimization scoring
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Side-by-side metrics
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Design recommendation engine
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Performance comparison tables
+
+</td>
+</tr>
+</table>
+
+<br clear="right"/>
+
+<div align="center">
+
+### 🎬 Demo Output
+
+<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100">
+
+```
+================================================================================
+   CMOS LOGIC ANALYZER WITH EXACT DELAY AND AREA CALCULATIONS
+================================================================================
+
+✓ Selected: 0.35um CMOS
+✓ Minimized: F = A + B + C + D
+✓ Analyzed: NAND+NOT vs NOR+NOT
+
+╔════════════════════════╦═══════════════╦═══════════════╗
+║ Metric                 ║ NAND+NOT      ║ NOR+NOT       ║
+╠════════════════════════╬═══════════════╬═══════════════╣
+║ Total Delay (ns)       ║ 2.456         ║ 2.189         ║
+║ Bit Rate (MHz)         ║ 407.18        ║ 456.82        ║
+║ Total Area (μm²)       ║ 45.23         ║ 42.15         ║
+║ Max Power (μW)         ║ 12.34         ║ 11.02         ║
+╚════════════════════════╩═══════════════╩═══════════════╝
+
+🏆 RECOMMENDED DESIGN: NOR+NOT
+```
+
+</div>
+
+---
+
+## 🔬 Supported CMOS Technologies
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100">
+
+| Technology | Gate Oxide | V<sub>th</sub> (V) | μ<sub>n</sub> | μ<sub>p</sub> | Applications |
+|:----------:|:----------:|:------------------:|:-------------:|:-------------:|:-------------|
+| **1.0µm** | 20 nm | ±0.9 | 450 cm²/V·s | 180 cm²/V·s | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" width="20" /> Legacy systems, education |
+| **0.8µm** | 16 nm | ±0.8 | 460 cm²/V·s | 185 cm²/V·s | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Wrench.png" width="20" /> Moderate performance |
+| **0.6µm** | 12 nm | ±0.75 | 470 cm²/V·s | 190 cm²/V·s | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.png" width="20" /> Standard digital logic |
+| **0.5µm** | 10 nm | ±0.7 | 460 cm²/V·s | 190 cm²/V·s | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="20" /> High-speed circuits |
+| **0.35µm** | 7 nm | ±0.5 | 500 cm²/V·s | 200 cm²/V·s | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gem%20Stone.png" width="20" /> Advanced VLSI |
+
+</div>
+
+---
+
+## 🚀 Installation
+
+<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="400" align="right">
+
+### 📋 Prerequisites
+
+```bash
+✓ Python 3.7 or higher
+✓ pip package manager
+```
+
+### ⚡ Quick Start
+
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/yourusername/cmos-logic-analyzer.git
+cd cmos-logic-analyzer
+
+# 2️⃣ Install dependen
