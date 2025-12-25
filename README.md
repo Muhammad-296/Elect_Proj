@@ -1,34 +1,17 @@
 <div align="center">
 
-<!-- Animated Header -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000">
+<!-- Static Header -->
+<h1 align="center">⚡ CMOS Logic Analyzer ⚡</h1>
+<h3 align="center">Circuit Design & Optimization | Visual Logic Simulation Tool</h3>
 
-<h1 align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="30">
-  CMOS Logic Analyzer
-  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="30">
-</h1>
 
-<h3 align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" />
-  Circuit Design & Optimization | Visual Logic Simulation Tool
-  <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="30" />
-</h3>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
 
-<h3>
-  <img src="https://user-images.githubusercontent.com/74038190/216122065-2f028bae-25d6-4a3c-bc9f-175394ed5011.png" width="25" /> 
-  Exact Delay • 
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Ruler.png" width="25" /> 
-  Area Optimization • 
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Battery.png" width="25" /> 
-  Power Analysis
-</h3>
+<h3>🔬 Exact Delay • 📐 Area Optimization • 🔋 Power Analysis</h3>
 
 <!-- Badges -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.7+-blue.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Python-3.7+-blue.svg?style=for-the-badge&logo=python" alt="Python">
   <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License">
   <img src="https://img.shields.io/badge/CMOS-Technology-purple.svg?style=for-the-badge" alt="CMOS">
   <img src="https://img.shields.io/badge/Status-Active-success.svg?style=for-the-badge" alt="Status">
@@ -36,8 +19,6 @@
 
 <!-- Navigation -->
 <p align="center">
-  <a href="#-overview"><b>Overview</b></a> •
-  <a href="#-project-statistics"><b>Statistics</b></a> •
   <a href="#-features"><b>Features</b></a> •
   <a href="#-installation"><b>Installation</b></a> •
   <a href="#-usage"><b>Usage</b></a> •
@@ -45,13 +26,11 @@
   <a href="#-contributing"><b>Contributing</b></a>
 </p>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47e185f-9b44-4c6a-b07f-6f5f6a6e7f32.gif" width="1000">
+---
 
 </div>
 
 ## 📖 Overview
-
-<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="500" align="right">
 
 A **comprehensive Python-based tool** for analyzing and optimizing CMOS logic circuits. 
 This analyzer implements **exact delay calculations**, area optimization, and power analysis for digital logic designs using both **NAND+NOT** and **NOR+NOT** implementations.
@@ -64,187 +43,61 @@ This analyzer implements **exact delay calculations**, area optimization, and po
 
 ---
 
-## 📊 Project Statistics
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
-
-### Repository Metrics
-
-<table>
-<tr>
-<td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Page%20with%20Curl.png" width="50" /><br>
-<b>8+ Modules</b><br>
-<sub>Core Components</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Memo.png" width="50" /><br>
-<b>2000+ Lines</b><br>
-<sub>Python Code</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Microchip.png" width="50" /><br>
-<b>5 Technologies</b><br>
-<sub>CMOS Processes</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Test%20Tube.png" width="50" /><br>
-<b>100% Accuracy</b><br>
-<sub>Exact Formulas</sub>
-</td>
-</tr>
-</table>
-
-### Technology Coverage
-
-<table>
-<tr>
-<td align="center" width="20%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="40" /><br>
-<b>1.0µm → 0.35µm</b><br>
-<sub>Process Range</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Electric%20Plug.png" width="40" /><br>
-<b>20nm → 7nm</b><br>
-<sub>Gate Oxide</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/High%20Voltage.png" width="40" /><br>
-<b>±0.5V → ±0.9V</b><br>
-<sub>Threshold Range</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" width="40" /><br>
-<b>450-500 cm²/V·s</b><br>
-<sub>Electron Mobility</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Glowing%20Star.png" width="40" /><br>
-<b>180-200 cm²/V·s</b><br>
-<sub>Hole Mobility</sub>
-</td>
-</tr>
-</table>
-
-### Performance Capabilities
-
-<table>
-<tr>
-<td align="center" width="33%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Stopwatch.png" width="50" /><br>
-<b>Up to 500+ MHz</b><br>
-<sub>Maximum Bit Rate</sub>
-</td>
-<td align="center" width="33%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" width="50" /><br>
-<b>Sub-100 μm²</b><br>
-<sub>Optimized Area</sub>
-</td>
-<td align="center" width="33%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Comet.png" width="50" /><br>
-<b>&lt;50 μW</b><br>
-<sub>Low Power</sub>
-</td>
-</tr>
-</table>
-
-### Algorithm Features
-
-<table>
-<tr>
-<td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Abacus.png" width="50" /><br>
-<b>Quine-McCluskey</b><br>
-<sub>Logic Minimization</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="50" /><br>
-<b>K-Map Generator</b><br>
-<sub>2-4 Variables</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" width="50" /><br>
-<b>Dual Implementation</b><br>
-<sub>NAND + NOR</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/1st%20Place%20Medal.png" width="50" /><br>
-<b>4-Criteria Scoring</b><br>
-<sub>Optimization</sub>
-</td>
-</tr>
-</table>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="1000">
-
-</div>
-
----
-
 ## ✨ Features
-
-<img src="https://user-images.githubusercontent.com/74038190/229223156-0cbdaba9-3128-4d8e-8719-b6b4cf741b67.gif" width="400" align="right">
 
 <table>
 <tr>
 <td width="50%">
 
 ### 🔧 Logic Minimization
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> **Quine-McCluskey algorithm**
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Boolean function simplification
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> **K-map visualization** (2, 3, 4 variables)
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Prime implicant grouping
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Color-coded outputs
+- ✅ **Quine-McCluskey algorithm**
+- ✅ Boolean function simplification
+- ✅ **K-map visualization** (2, 3, 4 variables)
+- ✅ Prime implicant grouping
+- ✅ Color-coded outputs
 
 ### ⚡ Exact Delay Calculation
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> **Non-linear MOSFET equations**
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Precise propagation delays
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Separate rise/fall analysis
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Capacitance models (cutoff/triode)
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Multi-input gate support
+- ✅ **Non-linear MOSFET equations**
+- ✅ Precise propagation delays
+- ✅ Separate rise/fall analysis
+- ✅ Capacitance models (cutoff/triode)
+- ✅ Multi-input gate support
 
 ### 📐 Area Optimization
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> **Exact formula**: `n×Wn(ln+2LDn) + wp(lp+2LDp)`
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Technology-dependent parameters
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Gate-level breakdown
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Silicon footprint minimization
+- ✅ **Exact formula**: `n×Wn(ln+2LDn) + wp(lp+2LDp)`
+- ✅ Technology-dependent parameters
+- ✅ Gate-level breakdown
+- ✅ Silicon footprint minimization
 
 </td>
 <td width="50%">
 
 ### 🔋 Power Analysis
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> **Maximum power dissipation**
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Switching voltage calculation
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Dynamic power estimation
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Gate-level power breakdown
+- ✅ **Maximum power dissipation**
+- ✅ Switching voltage calculation
+- ✅ Dynamic power estimation
+- ✅ Gate-level power breakdown
 
 ### 🎨 Visual K-Maps
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> **Color-coded groupings**
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Prime implicant highlighting
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Interactive ASCII display
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> 2D/3D representation
+- ✅ **Color-coded groupings**
+- ✅ Prime implicant highlighting
+- ✅ Interactive ASCII display
+- ✅ 2D/3D representation
 
 ### 📊 Comparative Analysis
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> **NAND+NOT vs NOR+NOT**
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> 4-criteria optimization scoring
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Side-by-side metrics
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Design recommendation engine
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Check%20Mark%20Button.png" width="20" /> Performance comparison tables
+- ✅ **NAND+NOT vs NOR+NOT**
+- ✅ 4-criteria optimization scoring
+- ✅ Side-by-side metrics
+- ✅ Design recommendation engine
+- ✅ Performance comparison tables
 
 </td>
 </tr>
 </table>
 
-<br clear="right"/>
-
 <div align="center">
 
 ### 🎬 Demo Output
-
-<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="100">
 
 ```
 ================================================================================
@@ -275,23 +128,19 @@ This analyzer implements **exact delay calculations**, area optimization, and po
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="100">
-
 | Technology | Gate Oxide | V<sub>th</sub> (V) | μ<sub>n</sub> | μ<sub>p</sub> | Applications |
 |:----------:|:----------:|:------------------:|:-------------:|:-------------:|:-------------|
-| **1.0µm** | 20 nm | ±0.9 | 450 cm²/V·s | 180 cm²/V·s | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" width="20" /> Legacy systems, education |
-| **0.8µm** | 16 nm | ±0.8 | 460 cm²/V·s | 185 cm²/V·s | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Wrench.png" width="20" /> Moderate performance |
-| **0.6µm** | 12 nm | ±0.75 | 470 cm²/V·s | 190 cm²/V·s | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gear.png" width="20" /> Standard digital logic |
-| **0.5µm** | 10 nm | ±0.7 | 460 cm²/V·s | 190 cm²/V·s | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" width="20" /> High-speed circuits |
-| **0.35µm** | 7 nm | ±0.5 | 500 cm²/V·s | 200 cm²/V·s | <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Gem%20Stone.png" width="20" /> Advanced VLSI |
+| **1.0µm** | 20 nm | ±0.9 | 450 cm²/V·s | 180 cm²/V·s | 🎓 Legacy systems, education |
+| **0.8µm** | 16 nm | ±0.8 | 460 cm²/V·s | 185 cm²/V·s | 🔧 Moderate performance |
+| **0.6µm** | 12 nm | ±0.75 | 470 cm²/V·s | 190 cm²/V·s | ⚙️ Standard digital logic |
+| **0.5µm** | 10 nm | ±0.7 | 460 cm²/V·s | 190 cm²/V·s | 🚀 High-speed circuits |
+| **0.35µm** | 7 nm | ±0.5 | 500 cm²/V·s | 200 cm²/V·s | 💎 Advanced VLSI |
 
 </div>
 
 ---
 
 ## 🚀 Installation
-
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="400" align="right">
 
 ### 📋 Prerequisites
 
@@ -333,17 +182,9 @@ pip install -r requirements.txt
 python main.py
 ```
 
-<br clear="right"/>
-
 ---
 
 ## 📂 Project Structure
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb4-7483-4eaf-bc25-6dde2628aabd.gif" width="100">
-
-</div>
 
 ```
 cmos-logic-analyzer/
@@ -379,12 +220,6 @@ cmos-logic-analyzer/
 ---
 
 ## 💡 Usage
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100">
-
-</div>
 
 ### 🎮 Interactive Mode
 
@@ -445,3 +280,520 @@ Enter don't care terms (optional):
 Selected Technology: 0.35um CMOS
 
 TRANSISTOR PARAMETERS:
+  • Cox = 4.930e-03 F/m²
+  • Kn = 2.816e-02 μA/V²
+  • Kp = 1.126e-02 μA/V²
+  • Vth_n = 0.500 V
+  • Vth_p = -0.600 V
+
+MINIMIZED LOGIC FUNCTION (SOP):
+  F = A + B + C + D
+
+IMPLEMENTATION COMPARISON:
+
+┌─────────────────────┬─────────────┬─────────────┐
+│ Metric              │ NAND+NOT    │ NOR+NOT     │
+├─────────────────────┼─────────────┼─────────────┤
+│ Total Gates         │ 6           │ 5           │
+│ Total Delay (ns)    │ 2.456       │ 2.189       │
+│ Bit Rate (MHz)      │ 407.18      │ 456.82      │
+│ Total Area (μm²)    │ 45.23       │ 42.15       │
+│ Max Power (μW)      │ 12.34       │ 11.02       │
+└─────────────────────┴─────────────┴─────────────┘
+
+🏆 RECOMMENDED DESIGN: NOR+NOT
+
+ADVANTAGES:
+  ✓ Smaller area by 3.08 μm²
+  ✓ Lower power by 1.32 μW
+  ✓ Higher speed by 49.64 MHz
+  ✓ Fewer gates by 1
+
+Analysis Complete!
+```
+
+---
+
+## 🧮 Mathematical Formulas
+
+### 📊 NOT Gate Delay
+
+<table>
+<tr><td>
+
+**Load Capacitance (V<sub>BS</sub> ≠ 0):**
+```
+Cload = n(Cgd_pc + Cgd_nt + Cdb_pt) + Cdb_nc + Cgb_pc
+```
+
+**Load Capacitance (V<sub>BS</sub> = 0):**
+```
+Cload = n(Cgd_pc + Cgd_nt) + Cdb_pc + Cdb_nc + Cgb_pc
+```
+
+**Delays:**
+```
+Z_NOT⁻ = Rn × Cload    where Rn = 1/(Kn×(VDD - Vth_n))
+Z_NOT⁺ = Rp × Cload    where Rp = 1/(Kp×(VDD - |Vth_p|))
+```
+
+</td></tr>
+</table>
+
+### ⚡ NAND Gate Delay
+
+<table>
+<tr><td>
+
+**Parameters:**
+```
+a = VDD - Vth_n
+X₁ = a(1 - √(1/n))
+X₂ = a(1 - √(1/n [1 + (1 - Vth_n/a)²(n-1)]))
+```
+
+**Falling Edge Delay:**
+```
+Z_ND⁻ = (n × Cload⁻ × 10⁶) / ((n² - 1)Kn × a) × [
+        (n-1)ln((a - X₂/2)/(a - X₁/2)) + 
+        2ln((1 - (n/(n-1))X₂/2)/(1 - (n/(n-1))X₁/2)) + 
+        (n+1)ln(X₁/X₂)]
+```
+
+**Rising Edge Delay:**
+```
+Z_ND⁺ = I⁺  (NOT gate rise delay)
+```
+
+</td></tr>
+</table>
+
+### 🔄 NOR Gate Delay
+
+<table>
+<tr><td>
+
+**Parameters:**
+```
+a = VDD - |Vth_p|
+X₁ = a(1 - √(1/n))
+X₂ = a(1 - √(1/n [1 + (1 - Vth_p/a)²(n-1)]))
+```
+
+**Rising Edge Delay:**
+```
+Z_NR⁺ = (n × Cload⁺ × 10⁶) / ((n² - 1)Kp × a) × [
+        (n-1)ln((a - X₂/2)/(a - X₁/2)) + 
+        2ln((1 - (n/(n-1))X₂/2)/(1 - (n/(n-1))X₁/2)) + 
+        (n+1)ln(X₁/X₂)]
+```
+
+**Falling Edge Delay:**
+```
+Z_NR⁻ = I⁻  (NOT gate fall delay)
+```
+
+</td></tr>
+</table>
+
+### 📐 Area Calculation
+
+<table>
+<tr><td>
+
+**Per Gate Area:**
+```
+Area = n×Wn(ln + 2LDn) + wp(lp + 2LDp) [μm²]
+
+where:
+  n   = number of inputs
+  Wn  = NMOS width per transistor
+  ln  = NMOS channel length
+  LDn = NMOS lateral diffusion length
+  wp  = PMOS width per transistor
+  lp  = PMOS channel length
+  LDp = PMOS lateral diffusion length
+```
+
+</td></tr>
+</table>
+
+### 🔋 Power Calculation
+
+<table>
+<tr><td>
+
+**Input Switching Voltage:**
+```
+V_inss = (√Kn × Vth_n + √Kp(VDD - Vth_p)) / (√Kn + √Kp)
+```
+
+**Maximum Power Dissipation:**
+```
+Pmax = G × (Kn/2) × (V_inss - Vth_n)² × VDD [μW]
+
+where:
+  G = total number of gates
+```
+
+</td></tr>
+</table>
+
+---
+
+## 🎯 Design Optimization Criteria
+
+<div align="center">
+
+| Criterion | Description | Measurement | Weight |
+|:---------:|-------------|:-----------:|:------:|
+| 🏆 **Area** | Minimizes silicon real estate | μm² | 25% |
+| ⚡ **Speed** | Maximizes operating frequency | MHz | 25% |
+| 🔋 **Power** | Minimizes energy consumption | μW | 25% |
+| 🎚️ **Gates** | Reduces circuit complexity | Count | 25% |
+
+</div>
+
+### 📈 Optimization Algorithm
+
+```python
+# Scoring system (4 criteria)
+for each criterion:
+    if NAND+NOT is better:
+        score_NAND += 1
+    elif NOR+NOT is better:
+        score_NOR += 1
+
+# Winner determination
+if scores are tied:
+    winner = design_with_smaller_area  # Tie-breaker
+else:
+    winner = design_with_higher_score
+```
+
+---
+
+## 🔍 Technical Highlights
+
+<div align="center">
+
+### 💎 Advanced Features
+
+</div>
+
+| Feature | Description |
+|---------|-------------|
+| ✅ **Non-linear delay models** | Exact logarithmic equations, not RC approximations |
+| ✅ **Body effect consideration** | Accurate V<sub>th</sub> calculation with V<sub>BS</sub> variations |
+| ✅ **Capacitance extraction** | Separate cutoff and triode region capacitances |
+| ✅ **Load calculation** | C<sub>gd</sub>, C<sub>gs</sub>, C<sub>db</sub>, C<sub>gb</sub> for each transistor |
+| ✅ **Multi-input gates** | 2-input to n-input NAND/NOR with exact formulas |
+| ✅ **Technology scaling** | Accurate parameters from 1.0µm to 0.35µm |
+
+### 🔬 Calculation Methodology
+
+```mermaid
+graph LR
+    A[Input Function] --> B[Logic Minimization]
+    B --> C[K-Map Generation]
+    C --> D[Gate Implementation]
+    D --> E[NAND+NOT]
+    D --> F[NOR+NOT]
+    E --> G[Delay Analysis]
+    F --> G
+    G --> H[Area Calculation]
+    H --> I[Power Analysis]
+    I --> J[Comparison & Recommendation]
+```
+
+<details>
+<summary><b>📊 Detailed Analysis Pipeline (Click to expand)</b></summary>
+
+1. **MOSFET Parameters**
+   - Calculate C<sub>ox</sub> from oxide thickness
+   - Determine K<sub>n</sub> and K<sub>p</sub> from mobility
+   - Compute threshold voltages with body effect
+   - Extract all parasitic capacitances
+
+2. **Logic Minimization**
+   - Apply Quine-McCluskey algorithm
+   - Generate prime implicants
+   - Create K-map visualization
+   - Produce minimal SOP expression
+
+3. **Implementation Conversion**
+   - NAND+NOT: Use De Morgan's laws
+   - NOR+NOT: Direct mapping
+   - Track gate hierarchy and fanout
+
+4. **Performance Analysis**
+   - Calculate exact delays using non-linear models
+   - Sum delays along critical path
+   - Compute area with technology formula
+   - Estimate maximum power dissipation
+
+5. **Comparison & Optimization**
+   - Score on 4 criteria (area, speed, power, gates)
+   - Determine winner with tie-breaker
+   - Provide detailed advantages
+
+</details>
+
+---
+
+## ⚠️ Limitations & Assumptions
+
+> **📌 Important Notes:**
+
+| Assumption | Description |
+|------------|-------------|
+| ⚙️ **Ideal switching** | No noise or signal integrity issues |
+| 🌡️ **Temperature** | Room temperature operation (T = 300K) |
+| ⚡ **Supply voltage** | Fixed V<sub>DD</sub> = 5.0V |
+| 🔌 **Interconnects** | Neglects RC wiring parasitics |
+| 📐 **MOSFET model** | Square-law (long-channel approximation) |
+| 🎚️ **Gate stages** | Single-stage gates only |
+| 📊 **Logic style** | Static CMOS only (no dynamic/ratioed) |
+
+### 🚀 Future Enhancements
+
+- [ ] Deep submicron technologies (<0.18µm)
+- [ ] Advanced BSIM models (BSIM4, BSIM6)
+- [ ] Interconnect delay modeling
+- [ ] Temperature and voltage variations
+- [ ] Monte Carlo analysis for process variations
+- [ ] Power-delay product optimization
+- [ ] Export to SPICE netlist format
+- [ ] PDF report generation
+- [ ] Web-based GUI interface
+- [ ] Multi-level logic optimization
+
+---
+
+## 📸 Screenshots
+
+<details>
+<summary><b>🎨 K-Map Visualization (Click to expand)</b></summary>
+
+```
+╔════════════════════════════════════════════════════════════╗
+║                  4-VARIABLE KARNAUGH MAP                   ║
+╚════════════════════════════════════════════════════════════╝
+
+     AB\CD │  00  │  01  │  11  │  10  │
+    ───────┼──────┼──────┼──────┼──────┤
+       00  │  [1] │  [1] │  [1] │  [1] │  ← Group 1
+       01  │  [1] │  [1] │  [1] │  [1] │  ← Group 2
+       11  │  [1] │  [1] │  [1] │  [1] │  ← Group 3
+       10  │  [1] │  [1] │  [1] │  [1] │  ← Group 4
+    
+Prime Implicants: [colored groups displayed]
+Minimized Expression: F = A + B + C + D
+```
+
+</details>
+
+<details>
+<summary><b>📊 Performance Comparison Table (Click to expand)</b></summary>
+
+```
+╔════════════════════════════════════════════════════════════╗
+║           COMPREHENSIVE IMPLEMENTATION COMPARISON          ║
+╚════════════════════════════════════════════════════════════╝
+
+┌───────────────────────┬───────────────┬───────────────┐
+│ Gate Count Comparison │   NAND+NOT    │   NOR+NOT     │
+├───────────────────────┼───────────────┼───────────────┤
+│ NAND Gates            │       2       │      N/A      │
+│ NOR Gates             │      N/A      │       2       │
+│ NOT Gates             │       4       │       3       │
+│ Total Gates           │       6       │       5       │
+└───────────────────────┴───────────────┴───────────────┘
+
+┌───────────────────────┬───────────────┬───────────────┐
+│ Performance Metrics   │   NAND+NOT    │   NOR+NOT     │
+├───────────────────────┼───────────────┼───────────────┤
+│ Total Delay (ns)      │    2.456      │    2.189      │
+│ Bit Rate (Hz)         │  4.072e+08    │  4.568e+08    │
+│ Bit Rate (MHz)        │    407.18     │    456.82     │
+│ Total Area (μm²)      │    45.23      │    42.15      │
+│ Max Power (μW)        │    12.34      │    11.02      │
+└───────────────────────┴───────────────┴───────────────┘
+
+╔════════════════════════════════════════════════════════════╗
+║               OPTIMIZATION ANALYSIS                        ║
+╚════════════════════════════════════════════════════════════╝
+
+1. OPTIMUM AREA:
+   • NOR+NOT design has optimum area: 42.15 μm²
+   • Area saving: 6.8% compared to NAND+NOT
+
+2. MAXIMUM POWER:
+   • NOR+NOT design has lower power: 11.02 μW
+   • Power saving: 10.7% compared to NAND+NOT
+
+3. MAXIMUM BIT RATE:
+   • NOR+NOT design has higher bit rate: 456.82 MHz
+   • Speed improvement: 12.2% compared to NAND+NOT
+
+╔════════════════════════════════════════════════════════════╗
+║             OVERALL RECOMMENDATION                         ║
+╚════════════════════════════════════════════════════════════╝
+
+Optimization Scores:
+  • NAND+NOT: 0/4 optimization criteria
+  • NOR+NOT: 4/4 optimization criteria
+
+🏆 RECOMMENDED DESIGN: NOR+NOT
+Primary Reason: Superior in more optimization criteria
+
+Key Advantages of NOR+NOT:
+  • Smaller area by 3.08 μm²
+  • Lower power by 1.32 μW
+  • Higher speed by 49.64 MHz
+  • Fewer gates by 1
+```
+
+</details>
+
+---
+
+## 🤝 Contributing
+
+<div align="center">
+
+### 🌟 We Welcome Contributors!
+
+</div>
+
+Contributions are welcome! Here's how you can help improve this project:
+
+<table>
+<tr>
+<td width="33%">
+
+### 🔬 Research
+- Add CMOS technologies
+- Implement BSIM models
+- Advanced delay models
+- Process variation analysis
+
+</td>
+<td width="33%">
+
+### 💻 Development
+- Web interface (React/Vue)
+- Mobile app
+- GUI with PyQt/Tkinter
+- API development
+- Export features
+
+</td>
+<td width="33%">
+
+### 📚 Documentation
+- Tutorials & guides
+- Video demonstrations
+- API documentation
+- Translation
+- Examples library
+
+</td>
+</tr>
+</table>
+
+### 📝 How to Contribute
+
+1. **🍴 Fork** the repository
+2. **🌿 Create** a feature branch
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. **💾 Commit** your changes
+   ```bash
+   git commit -m 'Add some AmazingFeature'
+   ```
+4. **📤 Push** to the branch
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. **🎉 Open** a Pull Request
+
+### 📋 Contribution Guidelines
+
+- Follow PEP 8 style guidelines
+- Add docstrings to all functions
+- Include type hints where appropriate
+- Write unit tests for new features
+- Update documentation
+- Add examples for new functionality
+
+---
+
+## 📜 License
+
+<div align="center">
+
+```
+MIT License
+
+Copyright (c) 2024 CMOS Logic Analyzer
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software.
+```
+
+</div>
+
+---
+
+## 👨‍💻 Author
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px">
+
+**Created with ❤️ for Digital Circuit Designers & VLSI Engineers**
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/Muhammad-296)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/muhammad-abdulhamid/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:muhammad.al.ajami.se@gmail.com)
+
+</div>
+
+---
+
+## 🙏 Acknowledgments
+
+<div align="center">
+
+Special thanks to:
+
+🎓 **VLSI Design Community** • 👥 **Contributors & Testers** • 📚 **Academic Resources**
+
+</div>
+
+---
+
+## 📚 References
+
+### 📖 Textbooks
+
+1. **Weste, N. H. E., & Harris, D.** (2010). *CMOS VLSI Design: A Circuits and Systems Perspective* (4th ed.). Addison-Wesley.
+2. **Rabaey, J. M., Chandrakasan, A., & Nikolic, B.** (2003). *Digital Integrated Circuits: A Design Perspective* (2nd ed.). Prentice Hall.
+3. **Sedra, A. S., & Smith, K. C.** (2015). *Microelectronic Circuits* (7th ed.). Oxford University Press.
+
+### 🔬 Technical Resources
+
+4. **BSIM Model Documentation** - Berkeley Short-channel IGFET Model
+5. **MOSIS Integrated Circuit Fabrication Service** - Process specifications
+6. **IEEE Xplore** - Research papers on CMOS delay modeling
+
+### 🌐 Online Resources
+
+7. [MIT OpenCourseWare - VLSI Design](https://ocw.mit.edu/)
+8. [CMOS Logic Gates Tutorial](https://www.electronics-tutorials.ws/)
+9. [Quine-McCluskey Algorithm](https://en.wikipedia.org/wiki/Quine%E2%80%93McCluskey_algorithm)
