@@ -307,4 +307,141 @@ This analyzer implements **exact delay calculations**, area optimization, and po
 git clone https://github.com/yourusername/cmos-logic-analyzer.git
 cd cmos-logic-analyzer
 
-# 2️⃣ Install dependen
+# 2️⃣ Install dependencies
+pip install colorama tabulate
+
+# 3️⃣ Run the analyzer
+python main.py
+```
+
+### 🔧 Installation with Virtual Environment
+
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate (Windows)
+venv\Scripts\activate
+
+# Activate (Unix/MacOS)
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run
+python main.py
+```
+
+<br clear="right"/>
+
+---
+
+## 📂 Project Structure
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb4-7483-4eaf-bc25-6dde2628aabd.gif" width="100">
+
+</div>
+
+```
+cmos-logic-analyzer/
+│
+├── 📄 main.py                    # Main application entry point
+├── 📄 constants.py               # Physical constants & CMOS datasheets
+├── 📄 mosfet.py                 # MOSFET parameter calculations
+├── 📄 logic_minimizer.py        # Quine-McCluskey & K-map generation
+├── 📄 design_implementer.py     # NAND/NOR implementations
+├── 📄 delay_calculator.py       # Exact delay formulas
+├── 📄 performance_analyzer.py   # Area, power, bit rate analysis
+├── 📄 comparator.py             # Design comparison engine
+├── 📄 requirements.txt          # Python dependencies
+├── 📄 README.md                 # This file
+```
+
+<details>
+<summary><b>📦 Module Descriptions (Click to expand)</b></summary>
+
+| Module | Description |
+|--------|-------------|
+| `main.py` | Interactive CLI with colorful output using colorama |
+| `constants.py` | Physical constants (q, ε₀, εsi) and 5 CMOS technology datasheets |
+| `mosfet.py` | Calculates Cox, Kn, Kp, Vth, and all parasitic capacitances |
+| `logic_minimizer.py` | Implements Quine-McCluskey algorithm with K-map visualization |
+| `design_implementer.py` | Converts SOP to NAND+NOT and NOR+NOT gate implementations |
+| `delay_calculator.py` | Exact delay formulas for NOT, NAND, and NOR gates |
+| `performance_analyzer.py` | Calculates area, power dissipation, and maximum bit rate |
+| `comparator.py` | Compares both designs and recommends optimal implementation |
+
+</details>
+
+---
+
+## 💡 Usage
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="100">
+
+</div>
+
+### 🎮 Interactive Mode
+
+```bash
+python main.py
+```
+
+<details>
+<summary><b>📸 Step-by-Step Guide (Click to expand)</b></summary>
+
+#### **Step 1: Select Technology**
+```
+Available CMOS Technologies:
+1. 1.0um CMOS
+2. 0.8um CMOS
+3. 0.6um CMOS
+4. 0.5um CMOS
+5. 0.35um CMOS
+
+Select technology number: 5
+```
+
+#### **Step 2: Enter MOSFET Dimensions**
+```
+Enter NMOS width Wn (µm): 2.0
+Enter NMOS length Ln (µm): 0.35
+Enter PMOS width Wp (µm): 4.0
+Enter PMOS length Lp (µm): 0.35
+Enter body-source voltage VBS (V): 0
+```
+
+#### **Step 3: Input Logic Function**
+```
+Use SOP (minterms) or POS (maxterms)? [S/P]: S
+Enter number of variables: 4
+Enter minterms separated by commas: 1,3,5,7,9,11,13,15
+Enter don't care terms (optional): 
+```
+
+#### **Step 4: View Results**
+- ✅ Minimized logic expression
+- ✅ Color-coded K-map
+- ✅ NAND+NOT implementation with gate count
+- ✅ NOR+NOT implementation with gate count
+- ✅ Performance comparison table
+- ✅ Optimization analysis
+- ✅ **Design recommendation**
+
+</details>
+
+### 📊 Example Session
+
+```
+╔════════════════════════════════════════════════════════════════╗
+║           CMOS LOGIC ANALYZER - ANALYSIS COMPLETE              ║
+╚════════════════════════════════════════════════════════════════╝
+
+Selected Technology: 0.35um CMOS
+
+TRANSISTOR PARAMETERS:
